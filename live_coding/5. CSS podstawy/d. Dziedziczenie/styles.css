@@ -1,0 +1,29 @@
+p {
+    color: green;
+}
+
+strong {
+    color: rebeccapurple;
+}
+
+em {
+    color: yellow;
+}
+
+#div1 {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+
+#div2 {
+    height: 100px;
+    width: 100px;
+    background-color: #000000;
+}
+
+#div3 {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.1);
+}

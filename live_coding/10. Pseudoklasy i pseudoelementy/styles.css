@@ -1,0 +1,6 @@
+a:hover { /*pseudoklasa*/
+    color: red;
+}
+p::first-letter { /*pseudoelement*/
+    font-size: 40px;
+}

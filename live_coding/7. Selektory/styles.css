@@ -1,0 +1,54 @@
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    background-color: green;
+}
+#big-box {
+    width: 600px;
+    height: 600px;
+    margin: 50px;
+    background-color: green;
+}
+.grey-box {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    background-color: lavender;
+}
+.small-box {
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+    background-color: cadetblue;
+}
+body {
+    margin: 0; /* istotne! usuwamy dziwne obramowanie domyślne dla body*/
+}
+/** {
+    border: 3px solid red;
+}*/
+
+/*div {
+    border: 3px solid red;
+}*/
+
+/*.dwa {
+    border: 3px solid red;
+}*/
+
+/*#jeden {
+    border: 3px solid red;
+}*/
+/*#big-box > div { !*właściwość dla dzieci wskazanego id*!
+    border: 3px solid red;
+}*/
+/*#big-box div { !*właściwość dla dzieci i potomków wskazanego id*!*/
+/*    border: 3px solid red;*/
+/*}*/
+/*.trzy + div { !*właściwość dla sąsiadów bezpośrednich wskazanego id, które są divem*!
+    border: 3px solid red;
+}*/
+/*.trzy ~ div { !*właściwość dla wszystkich sąsiadów wskazanego id, które są divem*!*/
+/*    border: 3px solid red;*/
+/*}*/

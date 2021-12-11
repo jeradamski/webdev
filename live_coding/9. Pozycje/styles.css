@@ -1,0 +1,40 @@
+.box {
+    background-color:  green;
+    border: 1px solid red;
+    width:  700px;
+    height: 200px;
+
+}
+.relative {
+    position: relative;
+    background-color:  green;
+    border: 1px solid red;
+    width:  700px;
+    height: 200px;
+    z-index: 2;
+}
+.fixed {
+    position: fixed;
+    background-color: cadetblue;
+    width: 400px;
+    height: 100px;
+    bottom: 10px;
+    left: 10px;
+}
+.absolute {
+    position: absolute;
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    left: 650px;
+    top: 500px;
+    z-index: 1; /*ignoruje pozycja static. Działa na innych, np. relative*/
+}
+.sticky {
+    position: sticky;
+    width:  700px;
+    height: 100px;
+    background-color: coral;
+    top: 0;
+
+}
